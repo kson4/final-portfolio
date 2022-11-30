@@ -171,6 +171,13 @@ nav {
 }
 .project-img {
   width: 100%;
-  /* max-width: 980px; */
+  max-width: 980px;
   height: auto;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #eb6440;
 }
