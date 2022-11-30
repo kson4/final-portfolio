@@ -84,6 +84,18 @@ nav {
 .nav-ul .btn {
   color: #fff;
 }
+.mb1 {
+  margin-bottom: 1rem;
+}
+.mb2 {
+  margin-bottom: 2rem;
+}
+.mb3 {
+  margin-bottom: 3rem;
+}
+.me1 {
+  margin-left: 1rem;
+}
 
 /* HERO */
 .hero {
@@ -110,29 +122,23 @@ nav {
   margin: 30px 0;
   gap: 10px;
 }
-
-/* tech stack */
-.tech-stack {
-  padding: 2rem;
-}
-.tech-stack h2 {
-  padding-bottom: 2rem;
-}
-.tech-stack-icons {
+.hero-tech-stack {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
-.tech-stack-icons > div {
+.hero-tech-stack-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;
+}
+.hero-tech-stack-icons div {
   text-align: center;
 }
-.tech-stack-icons img {
+.hero-tech-stack-icons img {
   width: 4em;
   height: 4em;
 }
@@ -150,4 +156,21 @@ nav {
 }
 .fa-react {
   color: #61dbfb;
+}
+
+/* projects */
+.projects h2 {
+  padding-bottom: 2rem;
+}
+.projects-text {
+  text-align: center;
+}
+.project {
+  border: 1px solid #497174;
+  padding: 1rem;
+}
+.project-img {
+  width: 100%;
+  /* max-width: 980px; */
+  height: auto;
 }
